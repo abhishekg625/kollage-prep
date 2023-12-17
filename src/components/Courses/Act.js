@@ -12,7 +12,17 @@ const Act = () => {
       }}
     >
       <div style={{ fontWeight: 700, color: "red" }}>ACT</div>
-      <div style={{ margin: 20 }}>
+      <div
+        style={{
+          margin: 20,
+          borderWidth: 2,
+          borderStyle: "solid",
+          borderColor: "black",
+          borderRadius: 20,
+          padding: 10,
+          width: "fit-content",
+        }}
+      >
         The ACT, or American College Testing, is a standardized test widely used
         for college admissions in the United States. Created by ACT, Inc., the
         exam assesses high school students' academic readiness for college. In

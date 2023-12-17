@@ -12,7 +12,17 @@ const Sat = () => {
       }}
     >
       <div style={{ fontWeight: 700, color: "red" }}>SAT</div>
-      <div style={{ margin: 20 }}>
+      <div
+        style={{
+          margin: 20,
+          borderWidth: 2,
+          borderStyle: "solid",
+          borderColor: "black",
+          borderRadius: 20,
+          padding: 10,
+          width: "fit-content",
+        }}
+      >
         The SAT, or Scholastic Assessment Test, is a standardized examination
         widely used for college admissions in the United States. Created by the
         College Board, the SAT is designed to assess a student's readiness for

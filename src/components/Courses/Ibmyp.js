@@ -12,7 +12,17 @@ const Ibmyp = () => {
       }}
     >
       <div style={{ fontWeight: 700, color: "red" }}>IBMYP</div>
-      <div style={{ margin: 20 }}>
+      <div
+        style={{
+          margin: 20,
+          borderWidth: 2,
+          borderStyle: "solid",
+          borderColor: "black",
+          borderRadius: 20,
+          padding: 10,
+          width: "fit-content",
+        }}
+      >
         The International Baccalaureate Middle Years Programme (IBMYP)
         examination is an integral component of the International Baccalaureate
         (IB) educational framework designed for students aged 11 to 16. The

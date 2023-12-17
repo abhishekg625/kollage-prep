@@ -12,7 +12,17 @@ const Ap = () => {
       }}
     >
       <div style={{ fontWeight: 700, color: "red" }}>AP</div>
-      <div style={{ margin: 20 }}>
+      <div
+        style={{
+          margin: 20,
+          borderWidth: 2,
+          borderStyle: "solid",
+          borderColor: "black",
+          borderRadius: 20,
+          padding: 10,
+          width: "fit-content",
+        }}
+      >
         The Advanced Placement (AP) program, administered by the College Board,
         offers high school students the opportunity to engage in college-level
         coursework and demonstrate their proficiency through standardized exams.

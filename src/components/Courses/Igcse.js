@@ -12,7 +12,17 @@ const Igcse = () => {
       }}
     >
       <div style={{ fontWeight: 700, color: "red" }}>IGCSE</div>
-      <div style={{ margin: 20 }}>
+      <div
+        style={{
+          margin: 20,
+          borderWidth: 2,
+          borderStyle: "solid",
+          borderColor: "black",
+          borderRadius: 20,
+          padding: 10,
+          width: "fit-content",
+        }}
+      >
         The International General Certificate of Secondary Education (IGCSE)
         examination is a globally recognized qualification designed for students
         typically in the 14 to 16 age group. Developed by Cambridge Assessment

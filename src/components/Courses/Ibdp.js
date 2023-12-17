@@ -12,7 +12,17 @@ const Ibdp = () => {
       }}
     >
       <div style={{ fontWeight: 700, color: "red" }}>IBDP</div>
-      <div style={{ margin: 20 }}>
+      <div
+        style={{
+          margin: 20,
+          borderWidth: 2,
+          borderStyle: "solid",
+          borderColor: "black",
+          borderRadius: 20,
+          padding: 10,
+          width: "fit-content",
+        }}
+      >
         The International Baccalaureate Diploma Programme (IBDP) examination is
         a comprehensive assessment system that forms the culmination of the
         International Baccalaureate (IB) Diploma Programme. Geared towards

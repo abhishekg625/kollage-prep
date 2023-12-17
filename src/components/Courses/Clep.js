@@ -12,7 +12,17 @@ const Clep = () => {
       }}
     >
       <div style={{ fontWeight: 700, color: "red" }}>CLEP</div>
-      <div style={{ margin: 20 }}>
+      <div
+        style={{
+          margin: 20,
+          borderWidth: 2,
+          borderStyle: "solid",
+          borderColor: "black",
+          borderRadius: 20,
+          padding: 10,
+          width: "fit-content",
+        }}
+      >
         The College-Level Examination Program (CLEP) provides a unique
         opportunity for individuals to earn college credit by demonstrating
         proficiency in specific subjects. Administered by the College Board, the
