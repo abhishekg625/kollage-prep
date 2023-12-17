@@ -67,7 +67,7 @@ export default function Feedback() {
 						w-full p-2.5"
               rows="2"
               cols="25"
-              maxlength="300"
+              maxLength="300"
               placeholder="Max Allowed Characters: 300"
             ></textarea>
             <br></br>
